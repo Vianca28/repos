@@ -1,0 +1,29 @@
+.calculator{
+  background-color: grey;
+  width: 200px;
+  height: 200px;
+}
+
+.btnContainer{
+margin: 10px;
+}
+.btn, .numBtn, .OpBt{
+  width:40px;
+}
+
+.screen{  
+  font-size: 20px;
+ text-align: right;
+ margin: 10px;
+ background-color: rgb(165, 161, 161);
+
+}
+
+#equation{
+  height: 25px;
+
+}
+#answer{
+  height: 25px;
+
+}

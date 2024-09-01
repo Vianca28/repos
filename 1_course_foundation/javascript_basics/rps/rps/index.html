@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <script src="javascript.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <!--simple interface-->
+    
+  </table>
+  <table>
+    <thead>
+      <th colspan="10">Results</th></thead>
+    <tr>
+      <th >Round</th>
+      <th>Computer</th>
+      <th>Player</th>
+      <th>Results</th>      
+    </tr>
+       <tr>
+        <td>1</td>
+        <td id="computer_1"></td>
+        <td id="player_1"></td>
+        <td id="results_1"></td>
+       </tr>
+
+       <tr>
+        <td>2</td>
+        <td id="computer_2"></td>
+        <td id="player_2"></td>
+        <td id="results_2"></td>
+       </tr>
+
+       <tr>
+        <td>3</td>
+        <td id="computer_3"></td>
+        <td id="player_3"></td>
+        <td id="results_3"></td>  
+       </tr>
+
+       <tr>
+        <td>4</td>
+       <td id="computer_4"></td>
+        <td id="player_4"></td>
+        <td id="results_4"></td>    
+       </tr>
+
+       <tr>
+        <td>5</td>
+        <td id="computer_5"></td>
+        <td id="player_5"></td>
+        <td id="results_5"></td>    
+       </tr>
+       <tr>
+        <th colspan="">Winner</th>
+        <td colspan="5"></td>
+         
+       </tr>
+  </table>
+  <br> <br> <br>
+  <button name="player" id="bet" value="0" onclick="thisbet(0)"> Rock</button>
+  <button name="player" id="bet" value="1" onclick="thisbet(1)"> Paper</button>
+  <button name="player" id="bet" value="2" onclick="thisbet(2)"> Scissors</button><br>
+<input  id="finalbet" readonly type="hidden"><br>
+</body>
+<style>
+  table, th, td {
+    border:1px solid black;
+  }
+  td{width:15px;
+  }
+  th{
+    width: 100px;
+    
+  }
+  </style>
+<script>
+  function thisbet(bet){
+  //console.log(bet);
+  document.getElementById("finalbet").value=bet;
+play();
+  }
+
+</script>
+</html>

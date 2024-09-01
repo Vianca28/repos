@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet">
+  <title>Calculator</title>
+</head>
+<body>
+<div class="calculator">
+<div class="screen">   
+<div  id="equation" ></div>
+<div  id="answer" ></div>
+</div>
+
+<div class="btnContainer">
+    <button onclick="clearScreen()" id="clearBtn" >    CLEAR    </button>
+    <button onclick="deleteNum()" id="deleteBtn" >    DELETE    </button>
+    <br>
+    <button class="numBtn" number>7</button>
+    <button class="numBtn" number>8</button>
+    <button class="numBtn"  number>9</button>
+    <button class="OpBtn"   operator>/</button>
+    <br>
+    <button class="numBtn"  number>4</button>
+    <button class="numBtn"   number>5</button>
+    <button class="numBtn"   number>6</button>
+    <button class="OpBtn" operator>*</button>
+    <br>
+    <button class="numBtn" number>1</button>
+    <button class="numBtn" number>2</button>
+    <button class="numBtn" number>3</button>
+    <button class="OpBtn"  operator>-</button>
+    <br>
+    <button class="numBtn"  number>.</button>
+    <button class="numBtn"  number >0</button>
+    <button class="btn" onclick="equals()" id="equalsBtn">=</button>
+    <button class="OpBtn"  operator>+</button>
+  </div>
+</div>
+</body>
+<script src="script.js"></script>
+</html>
