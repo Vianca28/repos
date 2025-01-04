@@ -1,0 +1,8 @@
+--- !ruby/object:Game
+word: cottages
+word_clues: __tta__s
+guessed:
+- t
+- s
+- a
+guesses: 10

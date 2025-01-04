@@ -1,0 +1,11 @@
+---
+- !ruby/object:Game
+  secret: shipped
+  clues: s____e_
+  guessed:
+  - a
+  - s
+  - e
+  - r
+  guesses: 8
+  guess: '1'

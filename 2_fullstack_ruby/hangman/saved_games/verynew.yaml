@@ -1,0 +1,8 @@
+---
+- !ruby/object:Game
+  secret: users
+  clues: _s__s
+  guessed:
+  - s
+  guesses: 10
+  guess: '1'
